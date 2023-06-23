@@ -6,7 +6,9 @@
 
 Use Matlab code `/spp_model/sim_data.m` to generate all the required data to calculate group polarisation. Positions, velocities of agents are stored in the .mat file named `n_pw.mat`.
 
-Variables are commented within the code. To reproduce the results, it is advised to run for at least T = 3500 and the number of realisations (no_it) = 15. Interaction rates, number of interacting neighbours (k_alg) and all the parameters can be changed in sim_data.m.
+Variables are commented within the code. To reproduce the results, it is advised to run for at least T = 3500 and the number of realisations (no_it) = 15. Interaction rates, number of interacting neighbours (k_alg) and all the parameters can be changed in `sim_data.m`.
 
-To simulate stochastic pairwise interaction set `k_alg = 1` in `sim_data.m`
+To simulate stochastic pairwise interaction set `k_alg = 1` in `sim_data.m`. Similarly set `k_alg = 2` and `k_alg = n` for ternary and Vicsek like averaging model respectively.
+
+After running the simulation, use the data in `n_pw.mat` to calculate the order parameter, i.e., group polarisation. To do so, run the Matlab code `/figures/grp_pol.m`. This file stores all the required data in the `n_pw.csv` file in the format `[mx, my, m]`.
 
