@@ -1,2 +1,2 @@
-# data-driven-mesoscale-sde
+# Data driven mesoscale SDE
 
