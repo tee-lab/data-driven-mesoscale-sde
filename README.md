@@ -12,3 +12,6 @@ To simulate stochastic pairwise interaction set `k_alg = 1` in `sim_data.m`. Sim
 
 After running the simulation, use the data in `n_pw.mat` to calculate the order parameter, i.e., group polarisation. To do so, run the Matlab code `/figures/grp_pol.m`. This file stores all the required data in the `n_pw.csv` file in the format `[mx, my, m]`.
 
+## Simulation video
+
+To see the collective motion of agents, run the code `/spp_model/simulations.m`. Make sure to load `n_pw.mat`. Variables are defined within the code and can be changed accordingly.
