@@ -3,9 +3,9 @@ clear
 clc
 
 %%
-load('n250_try.mat')
+load('n_pw.mat') % Load data
 
-iter = 2;
+iter = 2; % iteration 
 
 pos_t = pos_t(:,:,:,iter);
 theta_t = theta_t(:,:,iter);
