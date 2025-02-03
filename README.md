@@ -4,7 +4,8 @@ This repository contains the code for the manuscript:
 
 Data-driven discovery of stochastic dynamical equations of collective motion. 
 Nabeel, A., Jadhav, V., Sire, C., Theraulaz, G., Escobedo, R., Iyer, S. K., & Guttal, V. (2023).
-DOI: 10.1088/1478-3975/ace22d
+(2023) Physical Biology, 20(5), 056003
+DOI: [10.1088/1478-3975/ace22d](dx.doi.org/10.1088/1478-3975/ace22d)
 
 The code is divided into two parts:
   - The directory `/spp_model` contains MATLAB code to simulate the agent-based models.
